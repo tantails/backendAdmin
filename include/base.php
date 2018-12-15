@@ -3,10 +3,10 @@
 	$sql_ip="127.0.0.1";
 	$sql_user="root";
 	$sql_pass="";
-	$sql_db="backendadmin";
+	$sql_db="backendadmin_dev";
 
 	//檢查資料庫, 如果不存在就自動匯入資料庫內容
-	//include_once "checkdb.php";
+	include_once "checkdb.php";
 
 	$dsn="mysql:host=".$sql_ip.";charset=utf8;dbname=".$sql_db;
 	$pdo=new PDO($dsn,$sql_user,$sql_pass);
