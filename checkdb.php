@@ -8,7 +8,7 @@
 	
 	if ($dbexists=="0"){
 		//echo "匯入並建立資料庫<br>";
-		$filename = 'db.sql';
+		$filename = 'db_dev.sql';
 
 		$templine = '';
 		$lines = file($filename);
