@@ -147,7 +147,7 @@
 					</div>
 					<div class="row-sm">';
 	//將各頁面id及title從資料庫表單`page`中取出並印出選項
-	$sql_page="SELECT * FROM `page`";
+	$sql_page="SELECT * FROM `page` WHERE `guest` <> 1;";
 	$rows_page=$pdo->query($sql_page)->fetchAll();
 	foreach($rows_page as $row_page){
 		echo 			'<div class="col-12 col-sm-4 col-xl-2 p-0" style="display:inline-block;">
