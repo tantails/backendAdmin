@@ -1,5 +1,8 @@
 # backendAdmin
 
+[![Feature Requests](https://img.shields.io/github/issues/tantails/backendAdmin/feature-request.svg)](https://github.com/tantails/backendAdmin/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc)
+[![Bugs](https://img.shields.io/github/issues/tantails/backendAdmin/bug.svg)](https://github.com/tantails/backendAdmin/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3Abug)
+
 ![screenshot](https://tantails.github.io/backendAdmin/screenshot.png "screenshot")
 
 ## 功能
