@@ -9,3 +9,9 @@
 ## 安裝
 * PHP版本需求為7.0以上
 * 將檔案放入網頁根目錄後，開啟`include/base.php`修改 MySQL 的帳號密碼
+
+## License
+
+Copyright (c) tantails. All rights reserved.
+
+Licensed under the [MIT](LICENSE.md) License.
